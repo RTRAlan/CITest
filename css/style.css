@@ -1,0 +1,28 @@
+:root {
+  --brand-100: #fff;
+  --brand-200: #00a1d9;
+  --brand-300: #1e73be;
+  --brand-400: #3f4145;
+}
+
+.bg-brand-header {
+  background-color: var(--brand-300);
+  color: #fff;
+}
+
+.title-image {
+  border-bottom-left-radius: 100px;
+}
+
+@media (max-width: 760px) {
+  .title-image {
+    border-radius: 10px;
+    margin-top: 0.5rem;
+  }
+}
+
+.service-bar {
+  background-color: var(--brand-400);
+  color: var(--brand-100);
+  border-radius: 15px;
+}
